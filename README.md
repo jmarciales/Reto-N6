@@ -1,5 +1,6 @@
 # Reto-N6
-mermaid
+
+```mermaid
 graph TD
     A[Inicio] --> B[Definir el rango del número: del 1 al 100]
     B --> C{¿Qué bucle usar?}
@@ -14,3 +15,4 @@ graph TD
     I --> F
     H -->|No| J[Fin del bucle]
     J --> K[Terminar]
+```
