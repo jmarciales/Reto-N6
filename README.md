@@ -1,5 +1,6 @@
 # Reto-N6
 Para los 3 primeros puntos, se realizo el diagrama de flujo teniendo en cuenta la forma de resolverlo mediante el ciclo while y ciclo for
+Punto 1
 ```mermaid
 graph TD
     A[Inicio] --> B[Definir el rango del número: del 1 al 100]
