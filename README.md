@@ -42,7 +42,7 @@ flowchart TD
     B --> C{¿num es impar?}
     C -->|Sí| D[Restar 1 a num ]
     C -->|No| E[Continuar con el valor de num]
-    D --> F[ for con range(num, 1, -2)]
+    D --> F[ Establecer el rango y restarle 2 progresivamente]
     E --> F
     F --> G{¿Quedan valores en el rango?}
     G -->|Sí| H[Imprimir el valor actual de i]
