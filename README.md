@@ -28,7 +28,6 @@ flowchart TD
     I -->|Sí| J{¿Numero es par?}
     J -->|Sí| K[Imprimir numero]
     J -->|No| B[Inicializar impar = 1]
-    K --> L
     I -->|No| M[Fin]
 ```
 
