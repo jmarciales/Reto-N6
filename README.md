@@ -19,7 +19,7 @@ flowchart TD
     B --> C{¿impar <= 999?}
     C -->|Sí| D{¿El numero es impar?}
     D -->|Sí| E[Imprimir numero]
-    D -->|No| F[Incrementar numero en 1]
+    D -->|No| G[Pasar al listado de pares]
     E --> F
     F --> C
     C -->|No| G[Pasar al listado de pares]
