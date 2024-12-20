@@ -28,7 +28,7 @@ flowchart TD
     I -->|Sí| J{¿El numero es par?}
     J -->|Sí| K[Imprimir numero]
     K --> L[Incrementar par en 1]
-    L --> G
+    L --> H
     J -->|No| B[Inicializar impar = 1]
     I -->|No| M[Fin]
     
