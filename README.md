@@ -17,7 +17,7 @@ Punto 2
 flowchart TD
     A[Inicio] --> B[Inicializar impar = 1]
     B --> C{¿impar <= 999?}
-    C -->|Sí| D{¿Numero es impar?}
+    C -->|Sí| D{¿El numero es impar?}
     D -->|Sí| E[Imprimir numero]
     D -->|No| F[Incrementar numero en 1]
     E --> F
@@ -25,7 +25,7 @@ flowchart TD
     C -->|No| G[Pasar al listado de pares]
     G --> H[Inicializar par = 2]
     H --> I{¿par <= 1000?}
-    I -->|Sí| J{¿Numero es par?}
+    I -->|Sí| J{¿El numero es par?}
     J -->|Sí| K[Imprimir numero]
     J -->|No| B[Inicializar impar = 1]
     I -->|No| M[Fin]
