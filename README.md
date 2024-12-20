@@ -29,7 +29,6 @@ flowchart TD
     J -->|Sí| K[Imprimir numero]
     J -->|No| B[Inicializar impar = 1]
     K --> L
-    L --> I
     I -->|No| M[Fin]
 ```
 
