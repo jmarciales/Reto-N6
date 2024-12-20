@@ -34,4 +34,21 @@ flowchart TD
     
 
 ```
+Punto 3 
 
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Solicitar un número natural y almacenarlo en 'num']
+    B --> C{¿num es impar?}
+    C -->|Sí| D[Restar 1 a num ]
+    C -->|No| E[Continuar con el valor de num]
+    D --> F[ for con range(num, 1, -2)]
+    E --> F
+    F --> G{¿Quedan valores en el rango?}
+    G -->|Sí| H[Imprimir el valor actual de i]
+    H --> I[Pasar al siguiente valor en el rango]
+    I --> G
+    G -->|No| J[Fin del bucle]
+    J --> K[Terminar]
+
+```
