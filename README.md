@@ -48,7 +48,6 @@ flowchart TD
     G -->|Sí| H[Imprimir el valor actual de i]
     H --> I[Pasar al siguiente valor en el rango]
     I --> G
-    G -->|No| J[Fin del bucle]
-    J --> K[Terminar]
+    G -->|No| J[Fin]
 
 ```
