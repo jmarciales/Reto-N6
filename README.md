@@ -1,5 +1,5 @@
 # Reto-N6
-Para los 3 primeros puntos, se realizo el diagrama de flujo teniendo en cuenta la forma de resolverlo mediante el ciclo while <br>
+Para los 2 primeros puntos, se realizo el diagrama de flujo teniendo en cuenta la forma de resolverlo mediante el ciclo while <br>
 Punto 1
 ```mermaid
 flowchart TD
