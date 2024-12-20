@@ -2,7 +2,7 @@
 Para los 3 primeros puntos, se realizo el diagrama de flujo teniendo en cuenta la forma de resolverlo mediante el ciclo while <br>
 Punto 1
 ```mermaid
-graph TD
+flowchart TD
     A[Inicio] --> B[Inicializar i en 1]
     B --> C{¿i<= 100?}
     C -->|Sí| D[Calcular el cuadrado de i]
@@ -14,7 +14,7 @@ graph TD
 ```
 Punto 2
 ```mermaid
-graph TD
+flowchart TD
     A[Inicio] --> B[Inicializar impar = 1]
     B --> C{¿impar <= 999?}
     C -->|Sí| D{¿Numero es impar?}
