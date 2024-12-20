@@ -20,14 +20,18 @@ flowchart TD
     C -->|Sí| D{¿El numero es impar?}
     D -->|Sí| E[Imprimir numero]
     D -->|No| G[Pasar al listado de pares]
-    E --> F
-    F --> C
+    E --> F[Incrementar impar en 1]
+    F --> B
     C -->|No| G[Pasar al listado de pares]
     G --> H[Inicializar par = 2]
     H --> I{¿par <= 1000?}
     I -->|Sí| J{¿El numero es par?}
     J -->|Sí| K[Imprimir numero]
+    K --> L[Incrementar par en 1]
+    L --> G
     J -->|No| B[Inicializar impar = 1]
     I -->|No| M[Fin]
+    
+
 ```
 
