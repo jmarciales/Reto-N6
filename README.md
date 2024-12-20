@@ -27,31 +27,9 @@ graph TD
     H --> I{¿par <= 1000?}
     I -->|Sí| J{¿Numero es par?}
     J -->|Sí| K[Imprimir numero]
-    J -->|No| L[Incrementar numero en 1]
+    J -->|No| B[Inicializar impar = 1]
     K --> L
     L --> I
     I -->|No| M[Fin]
 ```
-mermaid
-graph TD
-    A[Inicio] --> B[Inicializar numero = 1]
-    B --> C{¿Numero <= 999?}
-    C -->|Sí| D{¿Numero es impar?}
-    D -->|Sí| E[Imprimir numero]
-    D -->|No| F[Incrementar numero en 1]
-    E --> F
-    F --> C
-    C -->|No| G[Pasar al listado de pares]
-    G --> H[Inicializar numero = 2]
-    H --> I{¿Numero <= 1000?}
-    I -->|Sí| J{¿Numero es par?}
-    J -->|Sí| K[Imprimir numero]
-    J -->|No| L[Incrementar numero en 1]
-    K --> L
-    L --> I
-    I -->|No| M[Fin del programa]
 
-```
-
-```
-```
